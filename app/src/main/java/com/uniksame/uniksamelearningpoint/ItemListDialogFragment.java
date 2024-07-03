@@ -20,11 +20,11 @@ import com.uniksame.uniksamelearningpoint.databinding.FragmentItemListDialogList
 
 public class ItemListDialogFragment extends BottomSheetDialogFragment {
 
-    // TODO: Customize parameter argument names
+
     private static final String ARG_ITEM_COUNT = "item_count";
     private FragmentItemListDialogListDialogBinding binding;
 
-    // TODO: Customize parameters
+
     public static ItemListDialogFragment newInstance(int itemCount) {
         final ItemListDialogFragment fragment = new ItemListDialogFragment();
         final Bundle args = new Bundle();
