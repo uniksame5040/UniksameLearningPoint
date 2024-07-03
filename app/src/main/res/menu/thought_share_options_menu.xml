@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/see_profile_option"
+        android:orderInCategory="1"
+        android:title="@string/see_profile"/>
+
+    <item
+        android:id="@+id/chat_option"
+        android:orderInCategory="1"
+        android:title="@string/chat" />
+<!--    <item-->
+<!--        android:id="@+id/add_to_fav_option"-->
+<!--        android:orderInCategory="1"-->
+<!--        android:title="@string/add_to_favourite" />-->
+    <item
+        android:id="@+id/post_share_option"
+        android:orderInCategory="1"
+        android:title="@string/share" />
+
+</menu>

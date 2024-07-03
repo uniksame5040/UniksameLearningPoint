@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_redeem_option"
+            android:icon="@drawable/ic_baseline_account_balance_24"
+            android:title="@string/menu_redeem_amount" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/ic_baseline_contact_mail_24"
+            android:title="@string/menu_contact_us" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_baseline_feedback_24"
+            android:title="@string/menu_feedback" />
+        <item
+            android:id="@+id/nav_terms_condition"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/menu_terms_conditions" />
+
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/ic_baseline_policy_24"
+            android:title="@string/menu_privacy" />
+    </group>
+</menu>

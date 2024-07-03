@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "396175700426",
+    "project_id": "uniksame-learning-point",
+    "storage_bucket": "uniksame-learning-point.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396175700426:android:dc3ff5486396b9c2951f33",
+        "android_client_info": {
+          "package_name": "com.uniksame.uniksamelearningpoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396175700426-nkbv216jdv2trsk45eldeosdqogvvl19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uniksame.uniksamelearningpoint",
+            "certificate_hash": "498c0c832767a7ac25cc81820d4d37fb7f3699e7"
+          }
+        },
+        {
+          "client_id": "396175700426-b466sotdja94ev3ojfn37p4v4lbh0cn9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjaafoulXga8E8Si1UaEIN2fN_SJVlsyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396175700426-b466sotdja94ev3ojfn37p4v4lbh0cn9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

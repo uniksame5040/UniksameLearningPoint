@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/notification_main_option"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:orderInCategory="1"
+        android:title="Chats"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/share_app_option"
+        android:icon="@drawable/ic_baseline_send_to_mobile_24"
+        android:orderInCategory="1"
+        android:title="work"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/signup"
+        android:orderInCategory="1"
+        android:title="Sign Up"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/login"
+        android:orderInCategory="1"
+        android:title="Log in"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/agent_login_id"
+        android:orderInCategory="1"
+        android:title="Agent login"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/drawer_main"
+        android:orderInCategory="1"
+        android:title="Drawer"
+        app:showAsAction="never" />
+
+</menu>

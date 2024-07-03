@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/myshape"
+    android:backgroundTint="@color/super_sky_blue"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp">
+
+    <TextView
+        android:id="@+id/textView_user_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Today work Details"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/no_of_com_refers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/myshape"
+        android:backgroundTint="@color/white"
+        android:hint="No of refers"
+        android:padding="6dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/no_of_approaches_rep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myshape"
+        android:backgroundTint="@color/white"
+        android:hint="No of approaches"
+        android:layout_marginBottom="8dp"
+        android:padding="6dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/today_progress_edit_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myshape"
+        android:backgroundTint="@color/white"
+        android:hint="Mobile no"
+        android:padding="6dp"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="SUBMIT" />
+
+</LinearLayout>

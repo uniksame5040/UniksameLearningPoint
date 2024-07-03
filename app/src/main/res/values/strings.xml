@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Uniksame</string>
+    <string name="uniksame_corner">Uniksame Corner</string>
+    <string name="education">Education</string>
+    <string name="training">Training</string>
+    <string name="confidence">confidence</string>
+    <string name="respect">respect</string>
+    <string name="tab_text_5">Tab 5</string>
+    <string name="tab_text_6">Tab 6</string>
+    <string name="uniksame_learning_point">Uniksame Learning Point</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="notification_fragment">No notification</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="menu_slideshow">profile</string>
+    <string name="nav_header_desc">Navigation Header</string>
+    <string name="nav_header_subtitle">Uniksame</string>
+    <string name="nav_header_title">Muhammad faizan</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="respects">If you want to earn respect then first you
+        have to do some respectful work .In this world today
+    we all need something called respect money and happiness full life </string>
+    <string name="success_stories"> Here in this page you can watch all the collection of filtered YouTube video,
+        That is related to real motivation,education,current affairs, essential skills
+        facts.\n \nThis page always update with new Youtube content on weakly and daily basis.
+        This page give you new content to improve more knowledge.\n\n
+        This page will not cover any video contents as course wise.
+        this page may update any time with new YouTube video content
+    </string>
+    <string name="menu_redeem_amount">Redeem Amount</string>
+    <string name="menu_terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="menu_privacy"><![CDATA[Privacy & Policy]]></string>
+    <string name="menu_contact_us">Contact Us</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_uniksame">About Uniksame</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="msg_subscribe_failed">failed</string>
+    <string name="post_good_thought_story"><![CDATA[Post good thought & Story]]></string>
+    <string name="thought_share">Thought Share</string>
+    <string name="todo">TODO</string>
+    <string name="see_profile">See profile</string>
+    <string name="chat">Chat</string>
+    <string name="add_to_favourite">Add to favourite</string>
+    <string name="share">Share</string>
+    <string name="chat_education">Chat here !</string>
+    <string name="attempt"><![CDATA[Attempt & complete the test]]></string>
+    <string name="agent_log_n">Agent login</string>
+    <string name="terms_condition">Privacy Policy and Terms of Services. \n\n Our Privacy Ethics.\n\n As a
+        responsible company, this is our utmost priority to keep our users’ data safe,
+        private and secure. We know how privacy is important to our users and we
+        work hard to protect your personal information safe and protected.
+        We assure our users that their data will used only for varification not for any other purposes.
+        It would never be shared or sold to any third party company.</string>
+    <string name="write_description">Write description</string>
+
+    <string-array name="courses_array_list">
+        <item>No category selected</item>
+        <item>All new courses</item>
+        <item>Computer Daily Shorts </item>
+        <item>Computer</item>
+        <item>AdvanceComputer</item>
+        <item>NetworkingServers</item>
+        <item>Database</item>
+        <item>JavaLanguage</item>
+        <item>ProgrammingLanguage</item>
+        <item>Html</item>
+        <item>Xml</item>
+    </string-array>
+
+</resources>

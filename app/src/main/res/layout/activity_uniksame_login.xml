@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_up_back"
+    android:orientation="vertical"
+    tools:context=".UniksameLoginActivity">
+
+
+    <View
+        android:layout_width="12dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="122dp"
+        android:layout_marginBottom="122dp"
+        android:background="@drawable/myshape_sighn_up"
+        android:backgroundTint="@color/teal_200" />
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="12dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/uniksame_white" />
+
+
+        <EditText
+            android:id="@+id/edit_login_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/myshape_text"
+            android:backgroundTint="@color/white"
+            android:hint="Enter Usename/ Mobile no."
+            android:inputType="text"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edit_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/myshape_text"
+            android:backgroundTint="@color/white"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_log_sin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout_login"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="12dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="5"
+            android:background="@drawable/myshape_text"
+            android:backgroundTint="@color/white"
+            android:text="LOG IN" />
+
+        <ImageButton
+            android:id="@+id/button_sign_up"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_add_circle_24"
+            android:background="@drawable/myshape_sighn_up"
+            android:backgroundTint="@color/teal_200" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_user_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout_log_sin"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/myshape_text"
+        android:backgroundTint="@color/white"
+        android:padding="2dp"
+        android:text="Forgot Password "
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>
