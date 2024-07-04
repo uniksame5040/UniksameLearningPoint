@@ -38,4 +38,6 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         // Show 2 total pages.
         return mFragmentList.size();
     }
+
+    // we are testing
 }
